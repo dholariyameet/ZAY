@@ -1,0 +1,18 @@
+@media (max-width:991px){
+    header{
+        display: block;
+    }
+}
+@media (max-width:768px){
+    header{
+        display: none;
+    }
+    .cate-title p{
+        font-size: 40px;
+    }
+    .cate-txt p{
+        font-size: 18px;
+        line-height: 27px;
+        width: 90%;
+    }
+}

@@ -1,0 +1,315 @@
+:root{
+    --bgcolor:#212934;
+    --color:white;
+    --seccolor:#EFEFEF;
+    --bgtheme:#59ab6e;
+}
+.bgcolor{
+    background-color: var(--bgcolor);
+}
+.color{
+    background-color: var(--color);
+}
+.seccolor{
+    background-color: var(--seccolor);
+}
+.bgtheme{
+    background-color: var(--bgtheme);
+}
+.spacer{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+html,body{
+    overflow-x: hidden;
+}
+.pre-loader{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    background-color: #fff;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.contact-detail a{
+    padding: 15px;
+    color: var(--color);
+}
+.contact-detail i{
+    color: var(--color);
+}
+.text-logo{
+    font-size: 40px;
+    font-weight: 500;
+    color: var(--bgtheme);
+}
+.main-menu li a{
+    color: var(--bgcolor);
+}
+.main-menu li a{
+    font-size: 20px;
+    padding: 20px 40px !important;
+}
+.nav-icon a i{
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--bgcolor);
+}
+.main-menu li a:hover{
+    color: #59ab6e;
+}
+/*Banner Section Start*/
+.main-content{
+    font-size: 48px;
+}
+.main-subcontent{
+    font-size: 30px;
+}
+.main-txt{
+    font-size: 18px;
+    line-height: 27px;
+}
+.owl-nav{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    margin: 0 auto !important;
+}
+.owl-nav .owl-prev,
+.owl-nav .owl-next{
+    position: absolute;
+    left: 50px;
+    font-size: 60px !important;
+    color: #59ab6e !important;
+}
+.owl-nav .owl-next{
+    right: 50px; 
+    left: auto;
+}
+/*Banner Section End*/
+/*New Section Start*/
+.cate-title p{
+    font-size: 48px;
+    color: var(--bgcolor);
+    margin-bottom: 10px;
+}
+.cate-txt p{
+    font-size: 18px;
+    line-height: 27px;
+    color: var(--bgcolor);
+    width: 50%;
+    margin: 0 auto;
+}
+.feat-title p{
+    font-size: 48px;
+    color: var(--bgcolor);
+    margin-bottom: 10px;
+} 
+.feat-txt p{
+    font-size: 18px;
+    color: var(--bgcolor);
+    line-height: 27px;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.product-title a{
+    font-size: 30px;
+    color: var(--bgcolor);
+}
+.product-txt{
+    font-size: 18px;
+    line-height: 27px;
+}
+.product-review{
+    font-size: 18px;
+}
+/*New Section End*/
+/*footer Section Start*/
+.shop-address p,a{
+    padding: 6px;
+    color: var(--seccolor);
+    font-size: 20px;
+}
+.product-vairety{
+    font-size: 30px;
+    color: var(--seccolor);
+}
+.product-name p{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.product-name p:hover a{
+    color: #59ab6e;
+}
+.info-page p{
+    font-size: 30px;
+    color: var(--seccolor);
+}
+.web-page p{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.web-page p:hover a{
+    color: #59ab6e;
+}
+.icon{
+    height: 40px;
+    width: 40px;
+    border: 1px var(--seccolor) solid;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 35px;
+    margin: 5px;
+}
+.icon a i{
+    font-size: 20px;
+    color: var(--seccolor);
+}
+.txt-box{
+    padding: 15px 20px;
+}
+.sub-btn{
+    padding: 15px 20px;
+}
+/*footer Section End*/
+/**************************************************************************************************************************************
+                                                    About Us Page Start
+*************************************************************************************************************************************/
+/*Banner Section Start*/
+.abt-title p{
+    font-size: 40px;
+    color: var(--seccolor);
+}
+.abt-txt p{
+    font-size: 18px;
+    line-height: 27px;
+    color: var(--seccolor);
+}
+/*Banner Section End*/
+/*Service Section Start*/
+.service-title p{
+    font-size: 48px;
+    color: var(--bgcolor);
+}
+.service-txt p{
+    font-size: 18px;
+    line-height: 27px;
+    color: var(--bgcolor);
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.service-box{
+    cursor: pointer;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.4);
+    transition: .3s ease-in-out;
+}
+.service-box:hover{
+    background-color: var(--bgtheme);
+    color: var(--seccolor);
+}
+.service-box:hover i{
+    color: var(--seccolor);
+}
+/*Service Section End*/
+/*Brand Section Start*/
+.brand-title p{
+    font-size: 48px;
+    color: var(--bgcolor);
+    margin-bottom: 10px;
+}
+.brand-txt p{
+    font-size: 18px;
+    line-height: 27px;
+    color: var(--bgcolor);
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.brand-img{
+    filter: grayscale(100%);
+}
+/*Brand Section End*/
+/**************************************************************************************************************************************
+                                                    About Us Page End
+*************************************************************************************************************************************/
+/**************************************************************************************************************************************
+                                                    Shop Page Start
+*************************************************************************************************************************************/
+.shop-box{
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
+}
+.shop-img{
+    position: relative;
+}
+.icon-1{
+    height: 50px;
+    width: 50px;
+    background-color: var(--bgtheme);
+    text-align: center;
+    line-height: 35px;
+    color: var(--seccolor);
+    margin: 5px;
+    transition: .3s ease-in-out;
+}
+.icon-1:hover{
+    background-color: var(--bgcolor);
+}
+.shop-icon{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.4);
+    opacity: 0;
+    transition: .3s ease-in;
+}
+.shop-icon:hover{
+    opacity: 1;
+}
+/**************************************************************************************************************************************
+                                                    Shop Page End
+*************************************************************************************************************************************/
+/**************************************************************************************************************************************
+                                                    Contact Page Start
+*************************************************************************************************************************************/
+.contact-title p{
+    font-size: 48px;
+    color: var(--bgcolor);
+}
+.contact-txt p{
+    font-size: 18px;
+    line-height: 27px;
+    width: 60%;
+    margin: 0 auto;
+}
+.frm-btn{
+    padding: 15px 20px;
+    border: none;
+    font-size: 20px;
+}
+/**************************************************************************************************************************************
+                                                    Contact Page End
+*************************************************************************************************************************************/

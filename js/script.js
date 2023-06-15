@@ -1,0 +1,42 @@
+$(document).ready(function(){
+    $('#banner').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:1
+            },
+            1000:{
+                items:1
+            }
+        }
+    })
+});
+$(document).ready(function(){
+    $('#brand').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:true,
+        autoplay:true,
+        autoplayTimeout:2000,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:3
+            },
+            1000:{
+                items:4
+            }
+        }
+    })
+});
+AOS.init();
+setTimeout(function(){
+    $('.pre-loader').fadeOut();
+},3000)
